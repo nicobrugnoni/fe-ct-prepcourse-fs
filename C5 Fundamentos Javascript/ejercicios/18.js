@@ -8,6 +8,14 @@ function esVocal(letra) {
   // "n" ---> "Dato incorrecto"
   // "texto largo" ---> "Dato incorrecto"
   // Tu código:
+  letra = letra.toLowerCase();
+  
+  if ('aeiou'.includes(letra)){
+    return 'Es vocal';
+  }
+  else {
+    return 'Dato incorrecto'
+  }
 }
 
 module.exports = esVocal;
