@@ -5,6 +5,12 @@ function saludo(idioma) {
   // Si "idioma" es "ingles", devuelve "Hello!".
   // Si "idioma" no es ninguno de los anteriores o es `undefined`, devuelve "Hola!".
   // Tu código:
+  const saludos = {
+    aleman: 'Guten Tag!',
+    mandarin: 'Ni Hao!',
+    ingles: 'Hello!'
+  };
+  return saludos[idioma] || 'Hola!';
 }
 
 module.exports = saludo;
