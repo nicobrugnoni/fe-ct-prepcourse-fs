@@ -11,8 +11,9 @@ function continueStatement(num) {
     if (i === 5) {
       continue;
     }
-    result.push(num);
     num += 2;
+
+    result.push(num);
   }
   
   return result;

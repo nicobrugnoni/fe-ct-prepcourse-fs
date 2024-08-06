@@ -1,9 +1,7 @@
 function invertirArray(array) {
   // Invierte el arreglo array recibido por argumento.
   // Tu código:
-  array.reverse();
-
-  return array;
+  return array.reverse();
 }
 
 module.exports = invertirArray;

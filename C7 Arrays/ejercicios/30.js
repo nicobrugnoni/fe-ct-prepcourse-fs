@@ -3,14 +3,15 @@ function encontrarElementoRepetido(numeros) {
   // Retorna el primer elemento repetido que se encuentre en el array.
   // Tu código:
   const vistos = new Set();
-
+  
   for (const numero of numeros) {
     if (vistos.has(numero)) {
       return numero;
     }
     vistos.add(numero);
   }
-  return null;
+  
+  return undefined;
 }
 
 module.exports = encontrarElementoRepetido;

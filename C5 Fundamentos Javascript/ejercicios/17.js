@@ -7,10 +7,10 @@ function esPositivo(num) {
   // Si el número es 0, devuelve false.
   // Tu código:
   if (num > 0) {
-    return 'es positivo';
+    return 'Es positivo';
   }
   else if (num < 0) {
-    return 'es negativo';
+    return 'Es negativo';
   }
   else{
     return false;
